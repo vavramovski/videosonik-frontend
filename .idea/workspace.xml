@@ -1,0 +1,2794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6d6605f-9f22-40f8-a4d4-e0cb7f74a088" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/header/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/Contact.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/ContactGroup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="38" column="85" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/bootstrap/bootstrap-grid.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="3071" selection-start-line="5" selection-start-column="3071" selection-end-line="5" selection-end-column="3071" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/product.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/productGroup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/ContactItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Dank</find>
+      <find>value</find>
+      <find>dark</find>
+      <find>Container</find>
+      <find>size</find>
+      <find>card-body</find>
+      <find>likiclass</find>
+      <find>atob</find>
+      <find>info</find>
+      <find>Image</find>
+      <find>img</find>
+      <find>background-co</find>
+      <find>succe</find>
+      <find>dark-green</find>
+      <find>cart</find>
+      <find>succ</find>
+      <find>res</find>
+      <find>ADMIN</find>
+      <find>style</find>
+      <find>mt-2</find>
+      <find>color</find>
+      <find>Write</find>
+      <find>submit</find>
+      <find>Submit</find>
+      <find>Admin</find>
+      <find>Product</find>
+      <find>sen</find>
+      <find>substring</find>
+      <find>substr</find>
+      <find>offset</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>this.props.products</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/axios/custom-axios.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/auth/AuthService.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/login/Login.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/cart/cartGroup.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistItem.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/bootstrap/bootstrap.min.css" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.scss" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistGroup.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/index.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/cart/cart.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/App.css" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/products/SingleProduct.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/header/navigator.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/login/Logout.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/repository/repository.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/contact/Contact.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/products/product.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/contact/ContactItem.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/products/productGroup.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/header/header.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/contact/ContactGroup.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/App.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/index.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/videosonik-frontend/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/videosonik-frontend/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="5" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectUserFactors">
+    <factor id="binaryFeature:liftShorter">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="170.0" />
+        <observation name="false" value="5.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="206.0" />
+        <observation name="false" value="53.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="160.0" />
+        <observation name="false" value="39.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="94.0" />
+        <observation name="false" value="3.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="205.0" />
+        <observation name="false" value="31.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="49.0" />
+        <observation name="false" value="10.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="8.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="84.0" />
+        <observation name="false" value="6.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="false" value="8.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:liftShorterClasses">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:middleMatching">
+      <dailyData date="11-03-2020">
+        <observation name="false" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="false" value="251.0" />
+        <observation name="true" value="8.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="false" value="197.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="false" value="96.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="false" value="234.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="false" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="false" value="11.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="false" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="false" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="false" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:nonGeneric">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_inResolveScope">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="217.0" />
+        <observation name="true" value="42.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="198.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="229.0" />
+        <observation name="true" value="7.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="true" value="6.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="true" value="8.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_openedInEditor">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="217.0" />
+        <observation name="false" value="41.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="198.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="229.0" />
+        <observation name="false" value="5.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="false" value="6.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="3.0" />
+        <observation name="true" value="5.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameDirectory">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="217.0" />
+        <observation name="false" value="42.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="198.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="229.0" />
+        <observation name="false" value="7.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="false" value="6.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="8.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameLogicalRoot">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="217.0" />
+        <observation name="false" value="42.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="198.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="229.0" />
+        <observation name="false" value="7.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="false" value="6.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="8.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sdkOrLibrary">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="217.0" />
+        <observation name="false" value="42.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="198.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="229.0" />
+        <observation name="false" value="7.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="false" value="6.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="8.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:templates">
+      <dailyData date="11-03-2020">
+        <observation name="false" value="170.0" />
+        <observation name="true" value="5.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="false" value="257.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="false" value="195.0" />
+        <observation name="true" value="4.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="false" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="false" value="229.0" />
+        <observation name="true" value="7.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="false" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="false" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="false" value="84.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="false" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="false" value="18.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:accessible">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:expectedType">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:kind">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:methodsChains">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_javaInheritance">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="217.0" />
+        <observation name="null" value="42.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="198.0" />
+        <observation name="null" value="1.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="null" value="1.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="229.0" />
+        <observation name="null" value="7.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="null" value="6.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="null" value="8.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_referenceList">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="217.0" />
+        <observation name="unknown" value="42.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="198.0" />
+        <observation name="unknown" value="1.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="unknown" value="1.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="229.0" />
+        <observation name="unknown" value="7.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="unknown" value="6.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="unknown" value="8.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:recursion">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionFinishedType">
+      <dailyData date="11-03-2020">
+        <observation name="cancelled" value="438.0" />
+        <observation name="explicitSelect" value="97.0" />
+        <observation name="typedSelect" value="78.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="cancelled" value="1188.0" />
+        <observation name="explicitSelect" value="153.0" />
+        <observation name="typedSelect" value="106.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="cancelled" value="1177.0" />
+        <observation name="explicitSelect" value="117.0" />
+        <observation name="typedSelect" value="82.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="cancelled" value="284.0" />
+        <observation name="explicitSelect" value="46.0" />
+        <observation name="typedSelect" value="51.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="cancelled" value="1005.0" />
+        <observation name="explicitSelect" value="126.0" />
+        <observation name="typedSelect" value="110.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="cancelled" value="174.0" />
+        <observation name="explicitSelect" value="34.0" />
+        <observation name="typedSelect" value="25.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="cancelled" value="118.0" />
+        <observation name="explicitSelect" value="8.0" />
+        <observation name="typedSelect" value="4.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="cancelled" value="227.0" />
+        <observation name="explicitSelect" value="50.0" />
+        <observation name="typedSelect" value="35.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="cancelled" value="443.0" />
+        <observation name="explicitSelect" value="51.0" />
+        <observation name="typedSelect" value="39.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="cancelled" value="80.0" />
+        <observation name="explicitSelect" value="12.0" />
+        <observation name="typedSelect" value="8.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="11-03-2020">
+        <observation name="BASIC" value="282.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="BASIC" value="488.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="BASIC" value="372.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="BASIC" value="133.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="BASIC" value="375.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="BASIC" value="93.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="BASIC" value="31.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="BASIC" value="113.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="BASIC" value="130.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="BASIC" value="43.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="11-03-2020">
+        <observation name="count" value="613.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="count" value="1447.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="count" value="1376.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="count" value="381.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="count" value="1242.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="count" value="233.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="count" value="130.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="count" value="312.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="count" value="533.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="count" value="100.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:explicitProximity">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="170.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="206.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="105.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="160.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="77.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="94.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="5.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="205.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="61.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="49.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="19.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="15.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="84.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="15.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="170.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="206.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="105.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="160.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="77.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="94.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="5.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="205.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="61.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="49.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="19.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="15.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="84.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="15.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:nameEnd">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="11-03-2020">
+        <observation name="average" value="0.045845" />
+        <observation name="count" value="349.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.04943" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="average" value="0.576402" />
+        <observation name="count" value="517.0" />
+        <observation name="max" value="14.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="1.928992" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="average" value="0.881612" />
+        <observation name="count" value="397.0" />
+        <observation name="max" value="127.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="44.014877" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="average" value="0.227979" />
+        <observation name="count" value="193.0" />
+        <observation name="max" value="7.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="1.182973" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="average" value="0.11465" />
+        <observation name="count" value="471.0" />
+        <observation name="max" value="5.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.200145" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="average" value="0.290598" />
+        <observation name="count" value="117.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.845805" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="average" value="8.608696" />
+        <observation name="count" value="23.0" />
+        <observation name="max" value="84.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="285.924193" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="average" value="0.094675" />
+        <observation name="count" value="169.0" />
+        <observation name="max" value="5.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.192085" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="average" value="0.122905" />
+        <observation name="count" value="179.0" />
+        <observation name="max" value="5.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.238598" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="average" value="0.25641" />
+        <observation name="count" value="39.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.227402" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="11-03-2020">
+        <observation name="average" value="-1041.352436" />
+        <observation name="count" value="349.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1252.0" />
+        <observation name="variance" value="88662.178997" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="average" value="-1060.344294" />
+        <observation name="count" value="517.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1202.0" />
+        <observation name="variance" value="55593.216112" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="average" value="-1042.173803" />
+        <observation name="count" value="397.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1202.0" />
+        <observation name="variance" value="81922.164647" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="average" value="-1074.502591" />
+        <observation name="count" value="193.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1155.0" />
+        <observation name="variance" value="99289.357774" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="average" value="-1104.715499" />
+        <observation name="count" value="471.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1157.0" />
+        <observation name="variance" value="52987.90342" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="average" value="-1111.564103" />
+        <observation name="count" value="117.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1159.0" />
+        <observation name="variance" value="31662.471132" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="average" value="-1138.565217" />
+        <observation name="count" value="23.0" />
+        <observation name="max" value="-1002.0" />
+        <observation name="min" value="-1157.0" />
+        <observation name="variance" value="946.144693" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="average" value="-1093.177515" />
+        <observation name="count" value="169.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1153.0" />
+        <observation name="variance" value="55107.667148" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="average" value="-1090.927374" />
+        <observation name="count" value="179.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1202.0" />
+        <observation name="variance" value="46352.430251" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="average" value="-1123.282051" />
+        <observation name="count" value="39.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1306.0" />
+        <observation name="variance" value="33321.772193" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="11-03-2020">
+        <observation name="average" value="-38.570201" />
+        <observation name="count" value="349.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-103.0" />
+        <observation name="variance" value="1675.462641" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="average" value="-23.798839" />
+        <observation name="count" value="517.0" />
+        <observation name="max" value="100.0" />
+        <observation name="min" value="-103.0" />
+        <observation name="variance" value="2104.553174" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="average" value="-19.335013" />
+        <observation name="count" value="397.0" />
+        <observation name="max" value="50.0" />
+        <observation name="min" value="-101.0" />
+        <observation name="variance" value="1564.478533" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="average" value="-29.445596" />
+        <observation name="count" value="193.0" />
+        <observation name="max" value="20.0" />
+        <observation name="min" value="-103.0" />
+        <observation name="variance" value="1662.889522" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="average" value="-28.927813" />
+        <observation name="count" value="471.0" />
+        <observation name="max" value="50.0" />
+        <observation name="min" value="-103.0" />
+        <observation name="variance" value="1930.408229" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="average" value="-30.572649" />
+        <observation name="count" value="117.0" />
+        <observation name="max" value="20.0" />
+        <observation name="min" value="-103.0" />
+        <observation name="variance" value="1828.558907" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="average" value="4.826087" />
+        <observation name="count" value="23.0" />
+        <observation name="max" value="20.0" />
+        <observation name="min" value="-101.0" />
+        <observation name="variance" value="814.712638" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="average" value="-44.940828" />
+        <observation name="count" value="169.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-102.0" />
+        <observation name="variance" value="1964.384343" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="average" value="-36.067039" />
+        <observation name="count" value="179.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-102.0" />
+        <observation name="variance" value="1880.376469" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="average" value="-3.974359" />
+        <observation name="count" value="39.0" />
+        <observation name="max" value="82.0" />
+        <observation name="min" value="-101.0" />
+        <observation name="variance" value="860.765434" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="217.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="83.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="198.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="229.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="13.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="15.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="217.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="83.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="198.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="229.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="13.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="15.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="217.0" />
+        <observation name="average" value="2.0" />
+        <observation name="count" value="83.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="2.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="198.0" />
+        <observation name="average" value="2.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="2.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="average" value="2.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="2.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="229.0" />
+        <observation name="average" value="2.0" />
+        <observation name="count" value="13.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="2.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="average" value="2.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="2.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="2.0" />
+        <observation name="count" value="15.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="2.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="217.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="83.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="198.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="229.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="13.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="15.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="11-03-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="349.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="517.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="397.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="193.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="471.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="117.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="23.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="169.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="179.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="39.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:result_length">
+      <dailyData date="11-03-2020">
+        <observation name="average" value="5.747851" />
+        <observation name="count" value="349.0" />
+        <observation name="max" value="22.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="10.19579" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="average" value="6.762089" />
+        <observation name="count" value="517.0" />
+        <observation name="max" value="25.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="12.187856" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="average" value="6.143577" />
+        <observation name="count" value="397.0" />
+        <observation name="max" value="20.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="8.636133" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="average" value="5.803109" />
+        <observation name="count" value="193.0" />
+        <observation name="max" value="13.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="6.232242" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="average" value="6.046709" />
+        <observation name="count" value="471.0" />
+        <observation name="max" value="23.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="13.121079" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="average" value="6.076923" />
+        <observation name="count" value="117.0" />
+        <observation name="max" value="20.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="11.831749" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="average" value="8.695652" />
+        <observation name="count" value="23.0" />
+        <observation name="max" value="23.0" />
+        <observation name="min" value="4.0" />
+        <observation name="variance" value="14.230299" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="average" value="5.532544" />
+        <observation name="count" value="169.0" />
+        <observation name="max" value="13.0" />
+        <observation name="min" value="2.0" />
+        <observation name="variance" value="6.881664" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="average" value="6.167598" />
+        <observation name="count" value="179.0" />
+        <observation name="max" value="14.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="9.183059" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="average" value="7.230769" />
+        <observation name="count" value="39.0" />
+        <observation name="max" value="16.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="8.266601" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sameWords">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sorter">
+      <dailyData date="11-03-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="349.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="517.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="397.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="193.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="471.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="117.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="23.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="169.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="179.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="39.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:statics">
+      <dailyData date="11-03-2020">
+        <observation name="UNDEFINED" value="175.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="UNDEFINED" value="259.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="UNDEFINED" value="199.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="UNDEFINED" value="97.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="UNDEFINED" value="236.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="UNDEFINED" value="59.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="UNDEFINED" value="85.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="UNDEFINED" value="90.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:stats">
+      <dailyData date="11-03-2020">
+        <observation name="average" value="5792.183381" />
+        <observation name="count" value="349.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="20949310.665155" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="average" value="5164.433269" />
+        <observation name="count" value="517.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="21918112.910883" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="average" value="5565.687657" />
+        <observation name="count" value="397.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="21823058.368755" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="average" value="5657.917098" />
+        <observation name="count" value="193.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="20356540.996381" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="average" value="5992.14862" />
+        <observation name="count" value="471.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="21238382.693788" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="average" value="5109.641026" />
+        <observation name="count" value="117.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="20115925.145037" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="average" value="2159.695652" />
+        <observation name="count" value="23.0" />
+        <observation name="max" value="9995.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="11302853.861456" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="average" value="7012.662722" />
+        <observation name="count" value="169.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="18243199.517069" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="average" value="5773.938548" />
+        <observation name="count" value="179.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="19972439.576783" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="average" value="6362.384615" />
+        <observation name="count" value="39.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="14678555.408267" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="11-03-2020">
+        <observation name="0" value="91.0" />
+        <observation name="1" value="6.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="0" value="109.0" />
+        <observation name="1" value="16.0" />
+        <observation name="10" value="2.0" />
+        <observation name="14" value="1.0" />
+        <observation name="2" value="7.0" />
+        <observation name="3" value="6.0" />
+        <observation name="4" value="5.0" />
+        <observation name="5" value="2.0" />
+        <observation name="6" value="2.0" />
+        <observation name="7" value="1.0" />
+        <observation name="9" value="2.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="0" value="90.0" />
+        <observation name="1" value="21.0" />
+        <observation name="12" value="1.0" />
+        <observation name="127" value="1.0" />
+        <observation name="2" value="3.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="0" value="35.0" />
+        <observation name="1" value="7.0" />
+        <observation name="2" value="2.0" />
+        <observation name="4" value="1.0" />
+        <observation name="7" value="1.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="0" value="111.0" />
+        <observation name="1" value="9.0" />
+        <observation name="2" value="4.0" />
+        <observation name="4" value="1.0" />
+        <observation name="5" value="1.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="0" value="28.0" />
+        <observation name="1" value="3.0" />
+        <observation name="3" value="2.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="0" value="4.0" />
+        <observation name="1" value="1.0" />
+        <observation name="5" value="1.0" />
+        <observation name="84" value="1.0" />
+        <observation name="9" value="1.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="0" value="48.0" />
+        <observation name="1" value="1.0" />
+        <observation name="5" value="1.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="0" value="45.0" />
+        <observation name="1" value="4.0" />
+        <observation name="2" value="1.0" />
+        <observation name="5" value="1.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="0" value="9.0" />
+        <observation name="1" value="2.0" />
+        <observation name="2" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="11-03-2020">
+        <observation name="total" value="71.0" />
+        <observation name="withMnemonics" value="4.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="total" value="122.0" />
+        <observation name="withMnemonics" value="14.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="total" value="93.0" />
+        <observation name="withMnemonics" value="5.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="total" value="37.0" />
+        <observation name="withMnemonics" value="4.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="total" value="107.0" />
+        <observation name="withMnemonics" value="8.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="total" value="28.0" />
+        <observation name="withMnemonics" value="2.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="total" value="8.0" />
+        <observation name="withMnemonics" value="2.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="total" value="40.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="total" value="39.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="total" value="11.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="11-03-2020">
+        <observation name="0" value="14.0" />
+        <observation name="1" value="12.0" />
+        <observation name="2" value="20.0" />
+        <observation name="3" value="16.0" />
+        <observation name="4" value="14.0" />
+        <observation name="5" value="15.0" />
+        <observation name="6" value="3.0" />
+        <observation name="7" value="1.0" />
+        <observation name="8" value="2.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="0" value="16.0" />
+        <observation name="1" value="15.0" />
+        <observation name="10" value="1.0" />
+        <observation name="11" value="2.0" />
+        <observation name="15" value="2.0" />
+        <observation name="16" value="4.0" />
+        <observation name="2" value="22.0" />
+        <observation name="20" value="1.0" />
+        <observation name="3" value="35.0" />
+        <observation name="4" value="23.0" />
+        <observation name="5" value="21.0" />
+        <observation name="6" value="7.0" />
+        <observation name="7" value="3.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="0" value="17.0" />
+        <observation name="1" value="7.0" />
+        <observation name="10" value="1.0" />
+        <observation name="2" value="23.0" />
+        <observation name="3" value="32.0" />
+        <observation name="4" value="19.0" />
+        <observation name="5" value="13.0" />
+        <observation name="6" value="3.0" />
+        <observation name="8" value="2.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="0" value="6.0" />
+        <observation name="1" value="3.0" />
+        <observation name="2" value="16.0" />
+        <observation name="3" value="7.0" />
+        <observation name="4" value="7.0" />
+        <observation name="5" value="6.0" />
+        <observation name="7" value="1.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="0" value="7.0" />
+        <observation name="1" value="12.0" />
+        <observation name="11" value="1.0" />
+        <observation name="13" value="1.0" />
+        <observation name="2" value="33.0" />
+        <observation name="3" value="36.0" />
+        <observation name="4" value="15.0" />
+        <observation name="5" value="9.0" />
+        <observation name="6" value="5.0" />
+        <observation name="7" value="4.0" />
+        <observation name="8" value="3.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="0" value="2.0" />
+        <observation name="1" value="4.0" />
+        <observation name="2" value="5.0" />
+        <observation name="3" value="11.0" />
+        <observation name="4" value="4.0" />
+        <observation name="5" value="5.0" />
+        <observation name="6" value="1.0" />
+        <observation name="7" value="1.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="3" value="4.0" />
+        <observation name="4" value="2.0" />
+        <observation name="5" value="1.0" />
+        <observation name="6" value="1.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="0" value="4.0" />
+        <observation name="1" value="6.0" />
+        <observation name="2" value="14.0" />
+        <observation name="3" value="13.0" />
+        <observation name="4" value="5.0" />
+        <observation name="5" value="7.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="0" value="4.0" />
+        <observation name="1" value="8.0" />
+        <observation name="2" value="7.0" />
+        <observation name="3" value="10.0" />
+        <observation name="4" value="9.0" />
+        <observation name="5" value="8.0" />
+        <observation name="6" value="2.0" />
+        <observation name="7" value="2.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="0" value="1.0" />
+        <observation name="2" value="2.0" />
+        <observation name="3" value="4.0" />
+        <observation name="4" value="3.0" />
+        <observation name="6" value="1.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="11-03-2020">
+        <observation name="average" value="213.411255" />
+        <observation name="count" value="462.0" />
+      </dailyData>
+      <dailyData date="12-03-2020">
+        <observation name="average" value="236.60709" />
+        <observation name="count" value="677.0" />
+      </dailyData>
+      <dailyData date="13-03-2020">
+        <observation name="average" value="203.923453" />
+        <observation name="count" value="614.0" />
+      </dailyData>
+      <dailyData date="04-04-2020">
+        <observation name="average" value="193.520179" />
+        <observation name="count" value="223.0" />
+      </dailyData>
+      <dailyData date="05-04-2020">
+        <observation name="average" value="202.662835" />
+        <observation name="count" value="522.0" />
+      </dailyData>
+      <dailyData date="06-04-2020">
+        <observation name="average" value="239.863636" />
+        <observation name="count" value="132.0" />
+      </dailyData>
+      <dailyData date="07-04-2020">
+        <observation name="average" value="256.37037" />
+        <observation name="count" value="27.0" />
+      </dailyData>
+      <dailyData date="08-04-2020">
+        <observation name="average" value="150.94964" />
+        <observation name="count" value="139.0" />
+      </dailyData>
+      <dailyData date="10-04-2020">
+        <observation name="average" value="200.837638" />
+        <observation name="count" value="271.0" />
+      </dailyData>
+      <dailyData date="11-04-2020">
+        <observation name="average" value="275.06" />
+        <observation name="count" value="50.0" />
+      </dailyData>
+    </factor>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
+              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
+              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
+              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
+              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
+              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
+              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
+              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586704433082" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SCSS" />
+    <property name="last.edited.regexp" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="ts.external.directory.path" value="C:\Program Files (x86)\IntelliJ IDEA 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WEB PROGRAMIRANJE\VIDEOSONIK-NEW-FRONTEND\videosonik-frontend" />
+      <recent name="F:\WEB PROGRAMIRANJE\VIDEOSONIK-NEW-FRONTEND\videosonik-frontend\src" />
+      <recent name="F:\WEB PROGRAMIRANJE\VIDEOSONIK-NEW-FRONTEND\videosonik-frontend\src\bootstrap" />
+      <recent name="F:\WEB PROGRAMIRANJE\VIDEOSONIK-NEW-FRONTEND\videosonik-frontend\bootstrap" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WEB PROGRAMIRANJE\VIDEOSONIK-NEW-FRONTEND\videosonik-frontend\src\bootstrap" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6d6605f-9f22-40f8-a4d4-e0cb7f74a088" name="Default Changelist" comment="" />
+      <created>1583713092543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583713092543</updated>
+      <workItem from="1583713096156" duration="887000" />
+      <workItem from="1583715932265" duration="540000" />
+      <workItem from="1583750562912" duration="3567000" />
+      <workItem from="1583756028038" duration="26000" />
+      <workItem from="1583767168046" duration="971000" />
+      <workItem from="1583959245658" duration="16430000" />
+      <workItem from="1584032306014" duration="13243000" />
+      <workItem from="1584096805337" duration="636000" />
+      <workItem from="1584112278930" duration="10229000" />
+      <workItem from="1584128211997" duration="11049000" />
+      <workItem from="1584303579075" duration="610000" />
+      <workItem from="1584638535098" duration="22000" />
+      <workItem from="1586026377045" duration="7811000" />
+      <workItem from="1586084706592" duration="22197000" />
+      <workItem from="1586164402658" duration="4936000" />
+      <workItem from="1586193188106" duration="3208000" />
+      <workItem from="1586265741129" duration="859000" />
+      <workItem from="1586266809793" duration="2255000" />
+      <workItem from="1586292892673" duration="620000" />
+      <workItem from="1586340962429" duration="9334000" />
+      <workItem from="1586386480205" duration="97000" />
+      <workItem from="1586518734037" duration="1533000" />
+      <workItem from="1586528792868" duration="4125000" />
+      <workItem from="1586619227370" duration="1566000" />
+      <workItem from="1586640934442" duration="630000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="117381000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117803834" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23644252" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4989154" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="11" sideWeight="0.5010846" side_tool="true" weight="0.26066098" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/@material-ui/core/Grid/Grid.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/bootstrap/bootstrap-reboot.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/../VIDEOSONIK/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2220" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/esm/Navbar.d.ts" />
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/@material-ui/core/CardMedia/CardMedia.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/@material-ui/core/CardHeader/CardHeader.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/CardImg.d.ts" />
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/@material-ui/core/Typography/Typography.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/Row.d.ts" />
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/auth/AuthService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/@material-ui/core/Container/Container.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/axios/custom-axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/@material-ui/core/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/@material-ui/core/Button/Button.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-transition-group/dist/react-transition-group.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-lifecycles-compat/react-lifecycles-compat.cjs.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/esm/Container.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/Card.d.ts" />
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/react-router-dom/esm/react-router-dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="171" column="4" selection-start-line="171" selection-start-column="4" selection-end-line="171" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/floatingButton.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="49" column="86" selection-start-line="49" selection-start-column="86" selection-end-line="49" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistGroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/cart/cartGroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/Container.d.ts" />
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2066" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/setupTests.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/esm/Button.d.ts" />
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/mdbreact/dist/css/mdb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="4056" column="34" selection-start-line="4056" selection-start-column="34" selection-end-line="4056" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/login/Logout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/login/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="66" column="46" selection-end-line="89" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/SingleProduct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="103" column="71" selection-start-line="103" selection-start-column="71" selection-end-line="103" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/bootstrap/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="5" column="77606" selection-start-line="5" selection-start-column="77606" selection-end-line="5" selection-end-column="77606" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/header/navigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/mdbreact/dist/scss/free/_cards.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/repository/repository.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="230" column="1" selection-start-line="230" selection-start-column="1" selection-end-line="230" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/cart/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="52" column="6" selection-end-line="120" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/Contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/ContactGroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="38" column="85" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/bootstrap/bootstrap-grid.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="3071" selection-start-line="5" selection-start-column="3071" selection-end-line="5" selection-end-column="3071" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/productGroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/ContactItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

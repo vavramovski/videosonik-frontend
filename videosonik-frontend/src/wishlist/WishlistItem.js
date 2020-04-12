@@ -1,5 +1,4 @@
 import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
 import React, {Component} from "react";
 import {Button, Image} from "react-bootstrap";
 import axios from '../axios/custom-axios';
@@ -26,33 +25,35 @@ class WishlistItem extends Component {
     };
 
 
-
     render() {
         return (
             //lg={3} md={6} sm={9} xs={12}
-            <Col className="col-lg-4 col-md-6 mb-4">
-                <Card border={'info'} className={"likiclass"} style={{height: '100%'}}>
-                    <Card.Header>{this.props.value.productid}</Card.Header>
-                    <Card.Body>
-                        <Image src={`data:image/jpeg;base64,${this.props.value.image}`}
-                               style={{width: "100%", height: "90%"}}
-                               alt={this.props.value.productid}
-                        />
-                        {this.props.value.description}
-                    </Card.Body>
-                    <Card.Body as={'h5'}>
-                        {this.props.value.price} MKD
-                    </Card.Body>
-                    <Card.Footer>
-                        <Button variant={'success'} onClick={() => this.addToCart(this.props.value.productid)}>
-                            Add to Cart!
-                        </Button>
-                        <Button variant={'warning'} onClick={() => this.props.onDelete(this.props.value.productid)}>
-                            Remove from wishlist
-                        </Button>
-                    </Card.Footer>
-                </Card>
-            </Col>
+
+            <Card border={'info'} className={"likiclass"} style={{height: '100%'}}>
+                <Card.Header>{this.props.value.productid}</Card.Header>
+                <Card.Body>
+                    <Image src={`data:image/jpeg;base64,${this.props.value.image}`}
+                           style={{width: "100%", height: "75%"}}
+                           alt={this.props.value.productid}
+                    />
+                    {this.props.value.description}
+                </Card.Body>
+                <Card.Body as={'h5'}>
+                    {this.props.value.price} MKD
+                </Card.Body>
+                <Card.Footer >
+                    <div className={"btn-group"}>
+                    <Button style={{marginRight: '1rem', float: 'left'}} variant={'success'}
+                            onClick={() => this.addToCart(this.props.value.productid)}>
+                        Cart!
+                    </Button>
+                    <Button variant={'warning'} style={{float: 'right'}} 
+                            onClick={() => this.props.onDelete(this.props.value.productid)}>
+                        Remove from wishlist
+                    </Button>
+                    </div>
+                </Card.Footer>
+            </Card>
         );
     }
 

@@ -1,7 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d6605f-9f22-40f8-a4d4-e0cb7f74a088" name="Default Changelist" comment="" />
+    <list default="true" id="c6d6605f-9f22-40f8-a4d4-e0cb7f74a088" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/viktor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/src/ecdsa-sig-formatter.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/src/ecdsa-sig-formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/src/param-bytes-for-alg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/JsonWebTokenError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/NotBeforeError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/TokenExpiredError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/psSupported.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/timespan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/.bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/sign.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/verify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jwa/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jwa/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jwa/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jwa/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/lib/data-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/lib/sign-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/lib/tostring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/lib/verify-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.includes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.includes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.includes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.includes/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isboolean/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isboolean/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isboolean/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isboolean/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isinteger/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isinteger/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isinteger/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isinteger/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isnumber/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isnumber/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isnumber/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isnumber/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isplainobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isplainobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isplainobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isplainobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isstring/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isstring/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isstring/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isstring/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.once/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.once/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.once/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.once/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/range.bnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/semver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videosonik-new-frontend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,18 +113,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -33,34 +122,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/header/header.js">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistGroup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/Contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/ContactGroup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="38" column="85" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
+            <state relative-caret-position="300">
+              <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -69,19 +134,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/bootstrap/bootstrap-grid.min.css">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="3071" selection-start-line="5" selection-start-column="3071" selection-end-line="5" selection-end-column="3071" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/product.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="300">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -89,20 +145,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/productGroup.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/cart/cartGroup.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/ContactItem.js">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/cart/cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="-460">
+              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/productGroup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/product.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="64" column="61" lean-forward="true" selection-start-line="64" selection-end-line="65" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -124,7 +201,6 @@
       <find>Dank</find>
       <find>value</find>
       <find>dark</find>
-      <find>Container</find>
       <find>size</find>
       <find>card-body</find>
       <find>likiclass</find>
@@ -151,10 +227,14 @@
       <find>substring</find>
       <find>substr</find>
       <find>offset</find>
+      <find>Container</find>
     </findStrings>
     <replaceStrings>
       <replace>this.props.products</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -163,10 +243,8 @@
         <option value="$PROJECT_DIR$/videosonik-frontend/src/auth/AuthService.js" />
         <option value="$PROJECT_DIR$/videosonik-frontend/src/login/Login.js" />
         <option value="$PROJECT_DIR$/videosonik-frontend/src/cart/cartGroup.js" />
-        <option value="$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistItem.js" />
         <option value="$PROJECT_DIR$/videosonik-frontend/src/bootstrap/bootstrap.min.css" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.scss" />
-        <option value="$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistGroup.js" />
         <option value="$PROJECT_DIR$/videosonik-frontend/src/index.js" />
         <option value="$PROJECT_DIR$/videosonik-frontend/src/cart/cart.js" />
         <option value="$PROJECT_DIR$/videosonik-frontend/src/App.css" />
@@ -182,6 +260,8 @@
         <option value="$PROJECT_DIR$/videosonik-frontend/src/contact/ContactGroup.js" />
         <option value="$PROJECT_DIR$/videosonik-frontend/src/App.js" />
         <option value="$PROJECT_DIR$/videosonik-frontend/src/index.css" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistGroup.js" />
+        <option value="$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistItem.js" />
       </list>
     </option>
   </component>
@@ -191,13 +271,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-    <handled-path value="$PROJECT_DIR$/videosonik-frontend/node_modules" />
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
       <path value="$PROJECT_DIR$/videosonik-frontend/package.json" />
     </packageJsonPaths>
   </component>
@@ -207,12 +282,9 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="170.0" />
-        <observation name="false" value="5.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="206.0" />
         <observation name="false" value="53.0" />
@@ -249,11 +321,12 @@
         <observation name="UNDEFINED" value="12.0" />
         <observation name="false" value="8.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="false" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -281,11 +354,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
-      <dailyData date="11-03-2020">
-        <observation name="false" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="false" value="251.0" />
         <observation name="true" value="8.0" />
@@ -318,11 +391,11 @@
       <dailyData date="11-04-2020">
         <observation name="false" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="false" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -350,11 +423,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="217.0" />
         <observation name="true" value="42.0" />
@@ -388,11 +461,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="217.0" />
         <observation name="false" value="41.0" />
@@ -429,11 +502,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="217.0" />
         <observation name="false" value="42.0" />
@@ -466,12 +539,12 @@
       </dailyData>
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="217.0" />
         <observation name="false" value="42.0" />
@@ -504,12 +577,12 @@
       </dailyData>
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="217.0" />
         <observation name="false" value="42.0" />
@@ -543,12 +616,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
-      <dailyData date="11-03-2020">
-        <observation name="false" value="170.0" />
-        <observation name="true" value="5.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="false" value="257.0" />
         <observation name="true" value="2.0" />
@@ -581,11 +653,11 @@
         <observation name="false" value="18.0" />
         <observation name="true" value="2.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="false" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -612,12 +684,12 @@
       </dailyData>
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -644,12 +716,12 @@
       </dailyData>
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -676,12 +748,12 @@
       </dailyData>
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:methodsChains">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -709,11 +781,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="217.0" />
         <observation name="null" value="42.0" />
@@ -747,11 +819,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="217.0" />
         <observation name="unknown" value="42.0" />
@@ -785,11 +857,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -817,13 +889,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="completionFinishedType">
-      <dailyData date="11-03-2020">
-        <observation name="cancelled" value="438.0" />
-        <observation name="explicitSelect" value="97.0" />
-        <observation name="typedSelect" value="78.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="cancelled" value="1188.0" />
         <observation name="explicitSelect" value="153.0" />
@@ -869,11 +939,13 @@
         <observation name="explicitSelect" value="12.0" />
         <observation name="typedSelect" value="8.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="cancelled" value="240.0" />
+        <observation name="explicitSelect" value="7.0" />
+        <observation name="typedSelect" value="8.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
-      <dailyData date="11-03-2020">
-        <observation name="BASIC" value="282.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="BASIC" value="488.0" />
       </dailyData>
@@ -901,11 +973,11 @@
       <dailyData date="11-04-2020">
         <observation name="BASIC" value="43.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="BASIC" value="44.0" />
+      </dailyData>
     </factor>
     <factor id="completionUsage">
-      <dailyData date="11-03-2020">
-        <observation name="count" value="613.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="count" value="1447.0" />
       </dailyData>
@@ -933,16 +1005,11 @@
       <dailyData date="11-04-2020">
         <observation name="count" value="100.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="count" value="255.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="170.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="9.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="206.0" />
         <observation name="average" value="0.0" />
@@ -1011,20 +1078,20 @@
         <observation name="UNDEFINED" value="12.0" />
         <observation name="average" value="0.0" />
         <observation name="count" value="15.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="5.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="170.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="9.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="206.0" />
         <observation name="average" value="0.0" />
@@ -1097,11 +1164,16 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="5.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -1129,15 +1201,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:position">
-      <dailyData date="11-03-2020">
-        <observation name="average" value="0.045845" />
-        <observation name="count" value="349.0" />
-        <observation name="max" value="1.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.04943" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="average" value="0.576402" />
         <observation name="count" value="517.0" />
@@ -1201,15 +1269,15 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.227402" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="average" value="0.068966" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.053708" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
-      <dailyData date="11-03-2020">
-        <observation name="average" value="-1041.352436" />
-        <observation name="count" value="349.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-1252.0" />
-        <observation name="variance" value="88662.178997" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="average" value="-1060.344294" />
         <observation name="count" value="517.0" />
@@ -1273,15 +1341,15 @@
         <observation name="min" value="-1306.0" />
         <observation name="variance" value="33321.772193" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="average" value="-1135.344828" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="-1052.0" />
+        <observation name="min" value="-1153.0" />
+        <observation name="variance" value="1072.208894" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
-      <dailyData date="11-03-2020">
-        <observation name="average" value="-38.570201" />
-        <observation name="count" value="349.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-103.0" />
-        <observation name="variance" value="1675.462641" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="average" value="-23.798839" />
         <observation name="count" value="517.0" />
@@ -1345,11 +1413,15 @@
         <observation name="min" value="-101.0" />
         <observation name="variance" value="860.765434" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="average" value="-1.172414" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="1.486087" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="217.0" />
         <observation name="average" value="0.0" />
@@ -1406,12 +1478,12 @@
       </dailyData>
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="217.0" />
         <observation name="average" value="0.0" />
@@ -1468,12 +1540,12 @@
       </dailyData>
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="217.0" />
         <observation name="average" value="2.0" />
@@ -1530,12 +1602,12 @@
       </dailyData>
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="217.0" />
         <observation name="average" value="0.0" />
@@ -1593,15 +1665,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
-      <dailyData date="11-03-2020">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="349.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="average" value="0.0" />
         <observation name="count" value="517.0" />
@@ -1665,15 +1733,15 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:result_length">
-      <dailyData date="11-03-2020">
-        <observation name="average" value="5.747851" />
-        <observation name="count" value="349.0" />
-        <observation name="max" value="22.0" />
-        <observation name="min" value="1.0" />
-        <observation name="variance" value="10.19579" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="average" value="6.762089" />
         <observation name="count" value="517.0" />
@@ -1737,11 +1805,15 @@
         <observation name="min" value="1.0" />
         <observation name="variance" value="8.266601" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="average" value="5.344828" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="12.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="6.984223" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -1768,12 +1840,12 @@
       </dailyData>
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -1800,12 +1872,12 @@
       </dailyData>
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
+      </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -1833,15 +1905,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
-      <dailyData date="11-03-2020">
-        <observation name="average" value="1.0" />
-        <observation name="count" value="349.0" />
-        <observation name="max" value="1.0" />
-        <observation name="min" value="1.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="average" value="1.0" />
         <observation name="count" value="517.0" />
@@ -1905,11 +1973,15 @@
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:statics">
-      <dailyData date="11-03-2020">
-        <observation name="UNDEFINED" value="175.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="UNDEFINED" value="259.0" />
       </dailyData>
@@ -1937,15 +2009,11 @@
       <dailyData date="11-04-2020">
         <observation name="UNDEFINED" value="20.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
-      <dailyData date="11-03-2020">
-        <observation name="average" value="5792.183381" />
-        <observation name="count" value="349.0" />
-        <observation name="max" value="10000.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="20949310.665155" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="average" value="5164.433269" />
         <observation name="count" value="517.0" />
@@ -2009,12 +2077,15 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="14678555.408267" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="average" value="3030.689655" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="9999.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="13831477.842083" />
+      </dailyData>
     </factor>
     <factor id="itemPosition">
-      <dailyData date="11-03-2020">
-        <observation name="0" value="91.0" />
-        <observation name="1" value="6.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="0" value="109.0" />
         <observation name="1" value="16.0" />
@@ -2079,12 +2150,12 @@
         <observation name="1" value="2.0" />
         <observation name="2" value="1.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="0" value="6.0" />
+        <observation name="1" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
-      <dailyData date="11-03-2020">
-        <observation name="total" value="71.0" />
-        <observation name="withMnemonics" value="4.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="total" value="122.0" />
         <observation name="withMnemonics" value="14.0" />
@@ -2121,19 +2192,12 @@
         <observation name="total" value="11.0" />
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="total" value="7.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="prefixLength">
-      <dailyData date="11-03-2020">
-        <observation name="0" value="14.0" />
-        <observation name="1" value="12.0" />
-        <observation name="2" value="20.0" />
-        <observation name="3" value="16.0" />
-        <observation name="4" value="14.0" />
-        <observation name="5" value="15.0" />
-        <observation name="6" value="3.0" />
-        <observation name="7" value="1.0" />
-        <observation name="8" value="2.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="0" value="16.0" />
         <observation name="1" value="15.0" />
@@ -2228,12 +2292,14 @@
         <observation name="6" value="1.0" />
         <observation name="8" value="1.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="2" value="1.0" />
+        <observation name="3" value="4.0" />
+        <observation name="6" value="1.0" />
+        <observation name="7" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
-      <dailyData date="11-03-2020">
-        <observation name="average" value="213.411255" />
-        <observation name="count" value="462.0" />
-      </dailyData>
       <dailyData date="12-03-2020">
         <observation name="average" value="236.60709" />
         <observation name="count" value="677.0" />
@@ -2270,75 +2336,73 @@
         <observation name="average" value="275.06" />
         <observation name="count" value="50.0" />
       </dailyData>
+      <dailyData date="12-04-2020">
+        <observation name="average" value="226.578125" />
+        <observation name="count" value="64.0" />
+      </dailyData>
     </factor>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
-              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
-              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
-              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
-              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
-              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
-              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VIDEOSONIK-NEW-FRONTEND" type="462c0819:PsiDirectoryNode" />
-              <item name="videosonik-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
             <path>
-              <item name="videosonik-new-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="videosonik-new-frontend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="videosonik-frontend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="videosonik-frontend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="videosonik-frontend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cart" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="videosonik-frontend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="contact" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="videosonik-frontend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="products" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="videosonik-new-frontend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="videosonik-frontend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wishlist" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -2351,7 +2415,7 @@
     <property name="SearchEverywhereHistoryKey" value="plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586704433082" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586706991481" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SCSS" />
     <property name="last.edited.regexp" value="" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -2419,11 +2483,12 @@
       <workItem from="1586528792868" duration="4125000" />
       <workItem from="1586619227370" duration="1566000" />
       <workItem from="1586640934442" duration="630000" />
+      <workItem from="1586704420054" duration="2555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117381000" />
+    <option name="totallyTimeSpent" value="119936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2436,8 +2501,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117803834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11886994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2452,7 +2518,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23644252" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.54013014" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
@@ -2483,13 +2549,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/@material-ui/core/Grid/Grid.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/bootstrap/bootstrap-reboot.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2584,27 +2643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="49" column="86" selection-start-line="49" selection-start-column="86" selection-end-line="49" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistGroup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/cart/cartGroup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/Container.d.ts" />
     <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/index.js">
@@ -2686,47 +2724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/cart/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="52" column="6" selection-end-line="120" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/header/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/Contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/ContactGroup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="38" column="85" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -2740,26 +2741,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/product.js">
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/productGroup.js">
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="40">
+          <caret line="2" column="30" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/ContactItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="260">
           <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -2767,10 +2775,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/index.css">
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/contact/ContactGroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/productGroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistGroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/products/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="64" column="61" lean-forward="true" selection-start-line="64" selection-end-line="65" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/node_modules/react-bootstrap/esm/Button.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/wishlist/WishlistItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/cart/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videosonik-frontend/src/cart/cartGroup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>

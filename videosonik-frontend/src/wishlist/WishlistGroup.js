@@ -23,57 +23,46 @@ class WishlistGroup extends Component {
         });
     }
 
-    deleteWishlistItem=(productId)=>{
+    deleteWishlistItem = (productId) => {
         console.log(this.state);
-            axios({
-                method: 'post',
-                url: '/wishlist/remove/' + productId ,
-                headers: {
-                    'Authorization': 'Bearer ' + localStorage.getItem("token")
-                },
-            });
-            const arr = this.state.wishlist.filter((x)=>{
-                return x.productid!=productId;
-            });
-            this.setState({
-                wishlist:arr
-            });
+        axios({
+            method: 'post',
+            url: '/wishlist/remove/' + productId,
+            headers: {
+                'Authorization': 'Bearer ' + localStorage.getItem("token")
+            },
+        });
+        const arr = this.state.wishlist.filter((x) => {
+            return x.productid != productId;
+        });
+        this.setState({
+            wishlist: arr
+        });
 
 
     }
 
     ProductsPerRow() {
-        const rows = [];
-        let  perRow = 3;
-        if (window.innerWidth < 1200)
-            perRow = 2;
-        // Generate the columns for thumbnails
-        const products = this.state.wishlist.map((product) => {
-            return (
-                <WishlistItem value={product} key={product.productid} onDelete={this.deleteWishlistItem}/>
-            )
-        });
-        // Push a new row for every set of three thumbnails
-        for (let row = 0; row < Math.ceil(this.state.wishlist.length / perRow); row += 1) {
-            rows.push(
-                <Row style={{marginTop: '2rem'}} key={row}>
-                    {
-                        products.slice(row * perRow, row * perRow + perRow)
-                    }
-                </Row>
+        let arr = [];
+        for (let i = 0; i < this.state.wishlist.length; i++) {
+            arr.push(
+                <div className={"col-lg-4 col-md-4 mb-4"}>
+                    <WishlistItem value={this.state.wishlist[i]} key={this.state.wishlist[i].id}/>
+                </div>
             );
         }
-        // give back an array of our rows composed of columns
-        return rows;
+        return arr;
     }
 
     render() {
         console.log(this.state);
 
         return (
-            <React.Fragment>
-                {this.ProductsPerRow()}
-            </React.Fragment>
+            <div className={"container"} style={{paddingTop:"1rem"}}>
+                <Row>
+                    {this.ProductsPerRow()}
+                </Row>
+            </div>
         );
     }
 

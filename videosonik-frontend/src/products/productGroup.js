@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Repository from "../repository/repository";
 import Product from "./product";
 import Row from "react-bootstrap/Row";
+import ReactPaginate from 'react-paginate';
 
 class Products extends Component {
 
@@ -13,22 +14,13 @@ class Products extends Component {
         }
     }
 
-    componentDidMount() {
-        Repository.getAllProducts().then(x => {
-            this.setState({
-                products: x
-            });
-        });
+    Products = () => {
+        let arr = [];
         // debugger;
-    }
-
-    Products=()=>{
-        let arr=[];
-        // debugger;
-        for(let i =0;i<this.state.products.length;i++){
+        for (let i = 0; i < this.props.products.length; i++) {
             arr.push(
                 <div className={"col-lg-3 col-md-4 mb-4"}>
-                <Product value={this.state.products[i]} key={this.state.products[i].productid}/>
+                    <Product value={this.props.products[i]} key={this.props.products[i].productid}/>
                 </div>
             );
         }
@@ -36,23 +28,14 @@ class Products extends Component {
     };
 
     render() {
+        let pageCount=Math.ceil(this.props.products.length/this.props.pageSize);
+
         return (
+
             <Row>
                 {this.Products()}
-              {/*  <ReactPaginate
-                    previousLabel={'previous'}
-                    nextLabel={'next'}
-                    breakLabel={'...'}
-                    breakClassName={'break-me'}
-                    pageCount={this.state.pageCount}
-                    marginPagesDisplayed={2}
-                    pageRangeDisplayed={5}
-                    onPageChange={this.handlePageClick}
-                    containerClassName={'pagination'}
-                    subContainerClassName={'pages pagination'}
-                    activeClassName={'active'}
-                />*/}
             </Row>
+
 
         );
     }

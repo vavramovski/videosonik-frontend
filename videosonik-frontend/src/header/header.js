@@ -1,29 +1,27 @@
 import {Nav, Navbar, NavDropdown} from "react-bootstrap/";
 import '../bootstrap/bootstrap.min.css';
-
-
 import React from "react";
 import {Link} from "react-router-dom";
 import jwt from "jwt-decode";
 
+
 const Header = (props) => {
     var admin = null;
-    if (localStorage.getItem("token") != null && jwt(localStorage.getItem("token")).ROLE.includes("ADMIN")) {
+    if ((localStorage.getItem("token") != null) &&  jwt(localStorage.getItem("token")).ROLE.includes("ADMIN")) {
         admin = <NavDropdown title="ADMIN" id="collapsible-nav-dropdown">
             <Link to={"/admin/contacts"} className={"dropdown-item"}>Read e-mails</Link>
-            <Link to={"/ "} className={"dropdown-item"}>Products</Link>
+            <Link to={"/admin/panel"} className={"dropdown-item"}>Products</Link>
         </NavDropdown>
     }
 
     var registerLogin = null;
 
-    console.log(localStorage.getItem("token"));
     if (localStorage.getItem("token") == null || jwt(localStorage.getItem("token")).sub == null)
         registerLogin =
             <React.Fragment>
                 <Nav.Link href="/login">Login</Nav.Link>;
                 <Nav.Link href="/register">Register</Nav.Link>
-            </React.Fragment>
+            </React.Fragment>;
     else {
         registerLogin = <Nav.Link href="/logout">Logout</Nav.Link>;
     }

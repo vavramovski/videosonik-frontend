@@ -54,7 +54,6 @@ body{
   visibility: hidden;
 }
 
-
 .rootclass{
   max-width: 345px;
 }
@@ -178,7 +177,7 @@ body{
 }
 .btn.pmd-btn-fab span,
 .btn.pmd-btn-fab i {
-  line-height: 56px;
+  line-height: unset;
 }
 .btn.pmd-btn-fab.btn-lg {
   width: 78px;

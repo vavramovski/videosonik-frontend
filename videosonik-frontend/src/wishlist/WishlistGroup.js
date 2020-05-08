@@ -38,16 +38,14 @@ class WishlistGroup extends Component {
         this.setState({
             wishlist: arr
         });
-
-
-    }
+    };
 
     ProductsPerRow() {
         let arr = [];
         for (let i = 0; i < this.state.wishlist.length; i++) {
             arr.push(
                 <div className={"col-lg-4 col-md-4 mb-4"}>
-                    <WishlistItem value={this.state.wishlist[i]} key={this.state.wishlist[i].id}/>
+                    <WishlistItem value={this.state.wishlist[i]} key={this.state.wishlist[i].id} onDelete={this.deleteWishlistItem}/>
                 </div>
             );
         }
@@ -58,7 +56,7 @@ class WishlistGroup extends Component {
         console.log(this.state);
 
         return (
-            <div className={"container"} style={{paddingTop:"1rem"}}>
+            <div className={"container"} style={{paddingTop:"2rem"}}>
                 <Row>
                     {this.ProductsPerRow()}
                 </Row>

@@ -1,15 +1,17 @@
-// import Card from "react-bootstrap/Card";
+import Card from "react-bootstrap/Card";
 import React, {Component} from "react";
-import {Button, Col, Image} from "react-bootstrap";
+import {Button, Image} from "react-bootstrap";
 import '../App.css';
 import '../bootstrap/bootstrap.min.css';
-import CardActionArea from "@material-ui/core/CardActionArea/CardActionArea";
-import CardContent from "@material-ui/core/CardContent/CardContent";
-import Typography from "@material-ui/core/Typography/Typography";
-import CardActions from "@material-ui/core/CardActions/CardActions";
-import CardMedia from "@material-ui/core/CardMedia/CardMedia";
-import Card from "@material-ui/core/Card/Card";
+// import CardActionArea from "@material-ui/core/CardActionArea/CardActionArea";
+// import CardContent from "@material-ui/core/CardContent/CardContent";
+// import Typography from "@material-ui/core/Typography/Typography";
+// import CardActions from "@material-ui/core/CardActions/CardActions";
+// import CardMedia from "@material-ui/core/CardMedia/CardMedia";
+// import Card from "@material-ui/core/Card/Card";
 import 'rc-input-number/assets/index.css';
+import {Link} from "react-router-dom";
+import Product from "../products/product";
 
 class Cart extends Component {
 
@@ -17,14 +19,9 @@ class Cart extends Component {
         super(props);
         this.state = {
             image: 'url',
-            quantity:0
+            quantity: 0
         };
     }
-
-    static editQuantity(productid) {
-        //
-        console.log(productid);
-    };
 
     componentDidMount() {
         const byteCharacters = atob(this.props.value.productid.image);
@@ -37,63 +34,82 @@ class Cart extends Component {
         let image = new Blob([byteArray], {type: 'image/jpeg'});
         let imageUrl = URL.createObjectURL(image);
         let quantity = this.props.value.quantity;
-        this.setState({image: imageUrl, quantity:quantity});
+        this.setState({image: imageUrl, quantity: quantity});
     }
 
     decrease = (e) => {
-        console.log(this.state.quantity);
         e.preventDefault();
         this.setState({quantity: this.state.quantity - 1});
+        this.editQuantityUpwards(this.state.quantity-1);
     };
 
     increase = (e) => {
-        console.log(this.state.quantity);
         e.preventDefault();
         this.setState({quantity: this.state.quantity + 1});
+        this.editQuantityUpwards(this.state.quantity+1);
+
     };
 
-    render() {
+    setQuantity = (e) => {
+        this.setState({quantity: e.target.value});
+        // pass changes to parent
+        this.editQuantityUpwards(e.target.value);
+    };
 
+    editQuantityUpwards(quantity){
+        let item = this.props.value;
+        item.quantity=quantity;
+        this.props.onQuantityChange(item);
+    }
+
+
+    render() {
         return (
-            //lg={3} md={6} sm={9} xs={12}
-            <Col className="col-lg-4 col-md-6 mb-4  ">
-                <Card className={"rootclass likiclass"} style={{height: '100%', position:'relative'}}>
-                    <CardActionArea>
-                        <CardMedia className={"mediaclass imgcenter"} style={{height: "100%"}}>
-                            <Image src={`data:image/jpeg;base64,${this.props.value.productid.image}`}
-                                   style={{width: "80%", height: "120%"}}
-                                   alt={this.props.value.productid.productid}
-                            />
-                        </CardMedia>
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                                {this.props.value.productid.productid}<br/>
-                                {this.props.value.productid.price} MKD
-                            </Typography>
-                            <Typography variant="body2" component="strong">
-                                {this.props.value.productid.description}
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                    <CardActions className={"align-bottom"}>
-                        <Button size="small" variant={'warning'}>
-                            Edit quantity
+
+            <React.Fragment>
+                <Card className={"likiclass"} style={{height: '100%'}} key={this.props.value.productid.productid + "1"}>
+                    <Card.Header>{this.props.value.productid.productid}</Card.Header>
+                    <div style={{width: "100%", height: "70%"}}>
+                        <Card.Body>
+                            <Link to={"product/" + this.props.value.productid.productid}>
+                                <Image src={`data:image/jpeg;base64,${this.props.value.productid.image}`}
+                                       style={{width: "205px", height: "205px"}}
+                                       alt={this.props.value.productid.productid}
+                                />
+                            </Link>
+                            <button className="btn pmd-btn-fab pmd-ripple-effect btn-outline-danger showme"
+                                    type="button"
+                                    style={{position: "absolute", top: "205px", right: "10px"}}
+                                    onClick={() => Product.addToWishlist(this.props.value.productid.productid)}>
+                                <i className="material-icons pmd-sm ">favorite_border</i></button>
+
+                            {this.props.value.productid.description.substring(0, 55)}
+                        </Card.Body>
+                    </div>
+                    <Card.Body as={'h5'}>
+                        {this.props.value.productid.price} MKD
+                    </Card.Body>
+                    <Card.Footer style={{overflow: "autp"}} className={"d-flex"}>
+                        <Button style={{marginRight: '1rem', display: "inline-block"}} variant={'danger'}
+                                onClick={() => this.props.onDelete(this.props.value.productid.productid)}>
+                            Remove from cart
                         </Button>
-                        <Button size="small" variant={'danger'}>
-                            Delete product
-                        </Button>
-                        <div className="list-group def-number-input number-input">
-                            <button onClick={this.increase} className="plus list-group-item"/>
+                        <div className="list-group def-number-input number-input" style={{display: "inline-block"}}>
+                            <button onClick={this.increase} className="plus list-group-item text-center"/>
                             <input className="quantity list-group-item" name="quantity"
                                    value={this.state.quantity}
+                                   onChange={this.setQuantity}
                                    type="number"/>
                             <button onClick={this.decrease} className="minus list-group-item"/>
                         </div>
-                    </CardActions>
+                    </Card.Footer>
                 </Card>
-            </Col>
 
-        );
+            </React.Fragment>
+
+
+        )
+            ;
     }
 
 

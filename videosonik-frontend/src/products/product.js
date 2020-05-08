@@ -3,8 +3,8 @@ import React, {Component} from "react";
 import {Button, Image} from "react-bootstrap";
 import axios from '../axios/custom-axios';
 import '../App.css';
-import '../bootstrap/bootstrap.min.css';
-import {Link, NavLink} from "react-router-dom";
+// import '../bootstrap/bootstrap.min.css';
+import {Link} from "react-router-dom";
 
 class Product extends Component {
 
@@ -39,11 +39,11 @@ class Product extends Component {
         return (
             //lg={3} md={6} sm={9} xs={12}  className="col-lg-3 col-md-6 mb-4"
             <React.Fragment>
-                <Card className={"likiclass"} style={{height: '100%'}}>
+                <Card className={"likiclass"} style={{height: '100%'}} key={this.props.value.productid}>
                     <Card.Header>{this.props.value.productid}</Card.Header>
                     <div style={{width: "100%", height: "70%"}}>
                         <Card.Body>
-                            <Link to={"product/"+this.props.value.productid}>
+                            <Link to={"product/" + this.props.value.productid}>
                                 <Image src={`data:image/jpeg;base64,${this.props.value.image}`}
                                        style={{width: "205px", height: "205px"}}
                                        alt={this.props.value.productid}
@@ -53,7 +53,8 @@ class Product extends Component {
                                     type="button"
                                     style={{position: "absolute", top: "205px", right: "10px"}}
                                     onClick={() => Product.addToWishlist(this.props.value.productid)}>
-                                <i className="material-icons pmd-sm ">favorite_border</i></button>
+                                <i className="material-icons pmd-sm" style={{lineHeight: "unser"}}>favorite_border</i>
+                            </button>
 
                             {this.props.value.description.substring(0, 55)}
                         </Card.Body>

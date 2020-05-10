@@ -1,14 +1,10 @@
 import axios from '../axios/custom-axios';
-import qs from 'qs';
 
 const Repository = {
 
 
-    getAllProducts:() => {
-        return axios({
-            method: 'get',
-            url: '/products'
-        });
+    getAllProducts: async () => {
+        return await axios.get('/products');
     },
     getCartProducts: async () => {
         return await axios({
@@ -47,7 +43,7 @@ const Repository = {
             Repository.logout();
         });
     },
-    getSingleProduct:  (id) => {
+    getSingleProduct: (id) => {
         return axios({
             method: 'get',
             url: '/products/' + id,
@@ -118,7 +114,7 @@ const Repository = {
 //todo: ne proagja ubavo requestov
         return await axios({
             method: 'patch',
-            url: '/products/'+product.productid,
+            url: '/products/' + product.productid,
             data: product,
             headers: {
                 'Authorization': 'Bearer ' + localStorage.getItem("token"),

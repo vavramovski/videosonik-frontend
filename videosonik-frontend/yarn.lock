@@ -9465,6 +9465,11 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
+redial@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/redial/-/redial-0.5.0.tgz#e690a53a31fb469906d1b52eae4c5dcc2bf346cd"
+  integrity sha1-5pClOjH7RpkG0bUurkxdzCvzRs0=
+
 regenerate-unicode-properties@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.1.0.tgz#ef51e0f0ea4ad424b77bf7cb41f3e015c70a3f0e"

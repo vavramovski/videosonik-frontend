@@ -97,7 +97,7 @@ class SingleProduct extends Component {
         let decodedToken = jwt.decode(token, {complete: true});
         let dateNow = new Date();
         let postCommentForm;
-        if (decodedToken != null && decodedToken.exp < dateNow.getTime() === false) {
+        if (decodedToken != null && !(decodedToken.exp < dateNow.getTime())) {
             postCommentForm =
                 <form onSubmit={this.postReview} style={{marginTop:"0px"}}>
                     <div className={"col-lg-7"}

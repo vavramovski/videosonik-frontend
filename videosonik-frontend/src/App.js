@@ -20,9 +20,12 @@ import ContactGroup from "./contact/ContactGroup";
 import AdminPanel from "./admin/AdminPanel";
 import EditAddProduct from "./admin/EditAddProduct";
 import ReactPaginate from 'react-paginate';
+import Spinner from "react-bootstrap/Spinner";
+import AuthService from "./auth/AuthService";
 
-// import { browserHistory } from './react-router';
-
+// @provideHooks({
+//     fetch:
+// })
 
 class App extends Component {
 
@@ -34,81 +37,35 @@ class App extends Component {
             admin: false,
             pageNumber: 0,
             pageSize: 3,
-            pagedProducts: [],
-            LED: [],
-            LEDSliced:[],
-            Computers: [],
-            Plumbing: []
+            isLoaded: false
         }
     }
 
-    componentDidMount() {
+    async componentDidMount() {
+        let isAdmin = false;
         let token = null;
+        if(AuthService.isTokenExpired(localStorage.getItem("token")))
+            localStorage.removeItem("token");
+
+        const isExpired = AuthService.isTokenExpired(localStorage.getItem("token"));
         if (localStorage.getItem("token") != null) {
             token = jwt(localStorage.getItem("token"));
         }
-        console.log(token);
-        if (token != null)
-            Repository.getAllProducts().then(x => {
-                let isadmin = false;
-                if (token.ROLE.includes("ADMIN"))
-                    isadmin = true;
-                this.setState({
-                    products: x.data,
-                    admin: isadmin,
-                    pagedProducts: x.data.slice(0, this.state.pageSize),
-                    LED: x.data.filter(function (x) {
-                        return x.category.includes('LED')
-                    }),
-                    LEDSliced:this.state.LED.slice(0,this.state.pageSize)
-                });
-                console.log(this.state.LED);
-            });
-    }
 
 
-    handlePageClick = (e) => {
-        let offset = e.selected * this.state.pageSize;
-        let sliced = this.state.products.slice(offset, offset + this.state.pageSize);
-        let led = this.state.products.filter(function (x) {
-            return x.category.includes('LED')
-        });
 
+        const response = await Repository.getAllProducts();
+
+        if (token != null && token.ROLE.includes("ADMIN"))
+            isAdmin = true;
         this.setState({
-            pagedProducts: sliced,
-            pageNumber: e.selected,
-            // LED:led
+            products: response.data,
+            admin: isAdmin,
+            isLoaded: true
         });
-        // console.log(`offset ${offset}`);
-        // console.log(this.state.pagedProducts)
-    };
-
-    paginate = (products) => {
-        let pageCount = Math.ceil(products.length / this.state.pageSize);
-        console.log("PAGE COUNT");
-        console.log(pageCount);
-        console.log(products.length)
-        console.log(this.state.pageSize)
-        return (
-            <ReactPaginate previousLabel={"previous"}
-                           nextLabel={"next"}
-                           breakLabel={<span className="gap">...</span>}
-                           breakClassName={"break-me"}
-                           pageCount={pageCount}
-                           marginPagesDisplayed={2}
-                           pageRangeDisplayed={5}
-                           pageClassName={"page-item"}
-                           pageLinkClassName={"page-link"}
-                           previousClassName={"page-item"}
-                           nextClassName={"page-item"}
-                           previousLinkClassName={"page-link"}
-                           nextLinkClassName={"page-link"}
-                           forcePage={this.state.pageNumber}
-                           onPageChange={this.handlePageClick}
-                           containerClassName={"pagination justify-content-center"}
-                           activeClassName={"active"}/>
-        )
-    };
+        console.log("componentDidMount    APP")
+        console.log(this.state.products)
+    }
 
 
     render() {
@@ -123,10 +80,15 @@ class App extends Component {
                         <Row style={{marginTop: '2rem'}}>
                             <ProductsNavigator/>
                             <Container style={{padding: 0, marginLeft: "1rem"}}>
-                                <Products products={this.state.pagedProducts}/>
+                                {!this.state.isLoaded ? (
+                                    <Spinner animation="border" role="status">
+                                        <span className="sr-only">Loading...</span>
+                                    </Spinner>) : (
+                                    <Products products={this.state.products}/>
+                                )}
                             </Container>
                         </Row>
-                        {this.paginate(this.state.products)}
+
                     </Route>
                     <Route path={"/login"} exact>
                         <Login/>
@@ -140,19 +102,31 @@ class App extends Component {
                     <Route path={"/led"} exact>
                         <Row style={{marginTop: '2rem'}}>
                             <ProductsNavigator/>
+
                             <Container style={{padding: 0, marginLeft: 0}}>
-                                <Products products={this.state.LEDSliced}/>
+                                {!this.state.isLoaded ? (
+                                    <Spinner animation="border" role="status">
+                                        <span className="sr-only">Loading...</span>
+                                    </Spinner>) : (
+                                    <Products products={this.state.products.filter(function (x) {
+                                        return x.category === "LED"
+                                    })}/>
+                                )}
                             </Container>
                         </Row>
-                        {this.paginate(this.state.LED)}
                     </Route>
                     <Route path={"/computers"} exact>
                         <Row style={{marginTop: '2rem'}}>
                             <ProductsNavigator/>
                             <Container style={{padding: 0, marginLeft: 0}}>
-                                <Products products={this.state.products.filter(function (x) {
-                                    return x.category === 'Computers'
-                                })}/>
+                                {!this.state.isLoaded ? (
+                                    <Spinner animation="border" role="status">
+                                        <span className="sr-only">Loading...</span>
+                                    </Spinner>) : (
+                                    <Products products={this.state.products.filter(function (x) {
+                                        return x.category === "Computers"
+                                    })}/>
+                                )}
                             </Container>
                         </Row>
                     </Route>
@@ -160,9 +134,14 @@ class App extends Component {
                         <Row style={{marginTop: '2rem'}}>
                             <ProductsNavigator/>
                             <Container style={{padding: 0, marginLeft: 0}}>
-                                <Products products={this.state.products.filter(function (x) {
-                                    return x.category === 'Plumbing'
-                                })}/>
+                                {!this.state.isLoaded ? (
+                                    <Spinner animation="border" role="status">
+                                        <span className="sr-only">Loading...</span>
+                                    </Spinner>) : (
+                                    <Products products={this.state.products.filter(function (x) {
+                                        return x.category === "Plumbing"
+                                    })}/>
+                                )}
                             </Container>
                         </Row>
                     </Route>

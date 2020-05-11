@@ -158,7 +158,6 @@ class App extends Component {
                         <AdminPanel/>
                     </Route>
                     <Route path={"/admin/newproduct"}>
-                        {/*Add product*/}
                         <EditAddProduct edit={false}/>
                     </Route>
                     <Route path={"/admin/editproduct/:productId"}>

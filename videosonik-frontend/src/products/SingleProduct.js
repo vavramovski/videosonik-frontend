@@ -143,7 +143,7 @@ class SingleProduct extends Component {
                                 className="img-fluid"
                                 src={`data:image/jpeg;base64,${this.state.product.image}`}
                                 alt={`${this.state.product.productid}`}
-                                style={{height: "80%"}}
+                                style={{height: "80%",maxHeight:"600px"}}
                             />
                         </MDBCol>
                         <MDBCol lg="7">
@@ -163,12 +163,8 @@ class SingleProduct extends Component {
                                     <MDBIcon icon="share" size="lg" className="indigo-text"/>
                                 </MDBCol>
                                 <MDBCol xl="10" md="11" size="10">
-                                    <h5 className="font-weight-bold mb-3">Description 2</h5>
-                                    <p className="grey-text">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                        enim ad minima veniam, quis nostrum exercitationem ullam.
-                                        Reprehenderit maiores aperiam assumenda deleniti hic.
-                                    </p>
+                                    <h5 className="font-weight-bold mb-3">Quantity in storage: {this.state.product.countininventory}</h5>
+
                                 </MDBCol>
                             </MDBRow>
                             <MDBRow className="mb-3">
@@ -179,7 +175,7 @@ class SingleProduct extends Component {
                                     <h5 className="font-weight-bold mb-3">Price: {this.state.product.price} MKD
                                     </h5>
                                     <p className="grey-text">
-                                        extra text
+                                        Keywords:{`\t${this.state.product.keywords}`}
                                     </p>
                                 </MDBCol>
 

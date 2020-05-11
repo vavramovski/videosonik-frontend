@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c6d6605f-9f22-40f8-a4d4-e0cb7f74a088" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videosonik-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/auth/AuthService.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/auth/AuthService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/admin/AdminPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/admin/AdminPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/admin/AdminProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/admin/AdminProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/products/SingleProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/products/SingleProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/products/productGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/products/productGroup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/repository/repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/repository/repository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videosonik-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2112,7 +2110,8 @@
       <workItem from="1588699057308" duration="6239000" />
       <workItem from="1589043639188" duration="6401000" />
       <workItem from="1589065802038" duration="5365000" />
-      <workItem from="1589109259473" duration="6107000" />
+      <workItem from="1589109259473" duration="10117000" />
+      <workItem from="1589217823100" duration="1119000" />
     </task>
     <servers />
   </component>
@@ -2129,10 +2128,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1589115241379">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1589122543683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589115241379" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589122543683" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589051757193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -2143,7 +2142,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/videosonik-frontend/src/App.js</url>
-          <line>164</line>
+          <line>163</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">

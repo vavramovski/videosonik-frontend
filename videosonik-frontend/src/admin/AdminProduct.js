@@ -24,8 +24,9 @@ class AdminProduct extends Component {
                         <Card.Body>
                             <Link to={"/product/"+this.props.value.productid}>
                                 <Image src={`data:image/jpeg;base64,${this.props.value.image}`}
-                                       width={"90%"}
-                                       height={"70%"}
+                                       // width={"90%"}
+                                       // height={"70%"}
+                                       style={{width: "205px", height: "205px"}}
                                        alt={this.props.value.productid}
                                 />
                             </Link>

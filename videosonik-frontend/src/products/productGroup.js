@@ -55,6 +55,21 @@ class Products extends Component {
           })
       }
     }
+    onSearchChange=(e)=>{
+        let term = e.target.value;
+        let filteredProducts = this.props.products.filter(product=>{
+            return product.description.toLowerCase().includes(term.toLowerCase()) ||
+                product.keywords.toLowerCase().includes(term.toLowerCase()) ||
+                product.productid.toLowerCase().includes(term.toLowerCase());
+
+        })
+        let sliced = filteredProducts.slice(0, this.state.pageSize);
+
+        this.setState({
+            pageNumber:0,
+            pagedProducts:sliced
+        });
+    }
 
     render() {
         let pageCount = Math.ceil(this.props.products.length / this.state.pageSize);
@@ -66,7 +81,7 @@ class Products extends Component {
                     id={`dropdown-button-drop-down`}
                     drop={"down"}
                     variant="dark"
-                    title={` Per page `}
+                    title={`${this.state.pageSize} Per page `}
                     onClick={this.onPageSize}
                 >
                     <Dropdown.Item  eventKey="1">4</Dropdown.Item>
@@ -75,7 +90,8 @@ class Products extends Component {
                     <Dropdown.Item eventKey="4">32</Dropdown.Item>
                     <Dropdown.Item eventKey="5">100</Dropdown.Item>
                 </DropdownButton>
-                <Row>
+                <input type={"text"} placeholder={"Search"} onChange={this.onSearchChange}/>
+                <Row style={{marginTop:"1rem"}}>
                     {this.Products()}
                 </Row>
                 <ReactPaginate previousLabel={"previous"}

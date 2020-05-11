@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import jwt from "jwt-decode";
 import Repository from "../repository/repository";
-import {Button, Container} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 import "../bootstrap/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
 import PageNotFound from "../pageNotFound/PageNotFound";
@@ -9,6 +9,7 @@ import axios from "../axios/custom-axios";
 import AdminProduct from "./AdminProduct";
 import Col from "react-bootstrap/Col";
 import {Link} from "react-router-dom";
+import Spinner from "react-bootstrap/Spinner";
 
 class AdminPanel extends Component {
 
@@ -17,7 +18,8 @@ class AdminPanel extends Component {
         super(props);
         this.state = {
             products: [],
-            admin: false
+            admin: false,
+            isLoaded: false
         }
     }
 
@@ -28,14 +30,14 @@ class AdminPanel extends Component {
 
         Repository.getAllProducts().then(x =>
             this.setState({
-                products: x
+                products: x.data,
+                isLoaded: true
             })
         );
     }
 
     Products = () => {
         let arr = [];
-        // debugger;
         for (let i = 0; i < this.state.products.length; i++) {
             arr.push(
                 <div className={"col-lg-3 col-md-4 mb-4"}>
@@ -74,10 +76,18 @@ class AdminPanel extends Component {
                     </Col>
 
                     <Col className={"col-lg-9"}>
-                        <Container style={{marginTop: "2rem"}} >
-                            <Row>
-                                {this.Products()}
-                            </Row>
+                        <Container style={{marginTop: "2rem"}}>
+                            {this.state.isLoaded ? (
+                                    <Row>
+                                        {this.Products()}
+                                    </Row>
+                                ) :
+                                (
+                                    <Spinner animation="border" role="status">
+                                        <span className="sr-only">Loading...</span>
+                                    </Spinner>
+                                )}
+
                         </Container>
                     </Col>
                 </Row>

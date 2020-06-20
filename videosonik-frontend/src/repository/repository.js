@@ -40,6 +40,7 @@ const Repository = {
             // console.log(x.data);
             return x.data;
         }).catch((resp) => {
+            console.log(resp);
             Repository.logout();
         });
     },

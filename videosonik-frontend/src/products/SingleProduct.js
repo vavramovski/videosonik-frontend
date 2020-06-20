@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import 'mdbreact/dist/css/mdb.css';
 import StarRatings from 'react-star-ratings';
 import * as jwt from "jsonwebtoken";
+import Product from "./product";
 
 
 class SingleProduct extends Component {
@@ -152,7 +153,7 @@ class SingleProduct extends Component {
                                     <MDBIcon icon="share" size="lg" className="indigo-text"/>
                                 </MDBCol>
                                 <MDBCol xl="10" md="11" size="10">
-                                    <h5 className="font-weight-bold mb-3">Description 1</h5>
+                                    <h5 className="font-weight-bold mb-3">Description</h5>
                                     <p className="grey-text">
                                         {this.state.product.description}
                                     </p>
@@ -178,10 +179,15 @@ class SingleProduct extends Component {
                                         Keywords:{`\t${this.state.product.keywords}`}
                                     </p>
                                 </MDBCol>
-
                                 <MDBCol>
-                                    <MDBBtn color="success">Add to cart</MDBBtn>
-                                    <MDBBtn color="amber">Wishlist</MDBBtn>
+                                    <MDBBtn color="success"
+                                            onClick={()=>Product.addToCart(this.state.product.productid)}>
+                                        Add to cart
+                                    </MDBBtn>
+                                    <MDBBtn color="amber"
+                                            onClick={()=>Product.addToWishlist(this.state.product.productid)}>
+                                        Wishlist
+                                    </MDBBtn>
                                 </MDBCol>
                             </MDBRow>
                         </MDBCol>

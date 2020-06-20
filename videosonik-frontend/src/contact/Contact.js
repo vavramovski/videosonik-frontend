@@ -13,7 +13,7 @@ const Contact = (props) => {
             email: e.target.email.value,
             subject: e.target.subject.value,
             content: e.target.content.value,
-            date:Date.now()
+            dateLong:Date.now()
         };
         Repository.postContact(data);
         window.location="/contact";
@@ -21,9 +21,7 @@ const Contact = (props) => {
 
     return (
         <Container>
-
             <div className="row">
-
                 <section>
 
                     <h2 className="h1-responsive font-weight-bold text-center my-5">Contact us</h2>

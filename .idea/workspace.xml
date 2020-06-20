@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c6d6605f-9f22-40f8-a4d4-e0cb7f74a088" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/admin/AdminPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/admin/AdminPanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/admin/AdminProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/admin/AdminProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/cart/cartGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/cart/cartGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/contact/ContactItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/contact/ContactItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/products/SingleProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/products/SingleProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/products/productGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/products/productGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videosonik-frontend/src/repository/repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/videosonik-frontend/src/repository/repository.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2031,6 +2031,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588529206961" />
@@ -2111,7 +2112,11 @@
       <workItem from="1589043639188" duration="6401000" />
       <workItem from="1589065802038" duration="5365000" />
       <workItem from="1589109259473" duration="10117000" />
-      <workItem from="1589217823100" duration="1119000" />
+      <workItem from="1589217823100" duration="2324000" />
+      <workItem from="1589237149259" duration="41000" />
+      <workItem from="1591959783189" duration="632000" />
+      <workItem from="1591967128039" duration="6028000" />
+      <workItem from="1592164680588" duration="7000" />
     </task>
     <servers />
   </component>
@@ -2128,10 +2133,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1589122543683">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1591979997250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589122543683" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591979997250" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589051757193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -123,7 +123,7 @@ class CartGroup extends Component {
                         <Button variant={"dark"}
                                 style={{alignItems: "col-md-3", float: "left", fontSize: "1rem"}}
                                 onClick={() => window.location="/"}>
-                            Go to payment
+                            Back to products
                         </Button>
 
                         <h1 className={"col-md-6"}>Total price: {this.totalPrice()} MKD</h1>
